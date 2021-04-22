@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	margin: 0 auto;
+	width:960px;
+	/*background-color: #eee;*/
+}
+
+#main-header{
+	padding: 13px;
+}
+#main-logo {
+	height: 95px;
+    width: 98px;
+}
+#main-nav {
+	background-color: #eee;
+	padding: 13px 17px;
+}
+
+#main-nav > ul {
+	list-style-type: none;
+}
+
+#main-nav > ul > li {
+	display: inline;
+	margin-right: 16px;
+}
+
+#main-nav > ul > li > a {
+	padding: 13px 14px;
+	text-decoration: none;
+	color: #000;
+	
+}
+#main-nav > ul > li > a.active{
+	background-color: #ccddff;
+}
+
+#main-nav > ul > li > a:hover{
+	text-decoration: underline;
+	background-color: #e6eeff;
+}
+
+#main-content {
+	padding: 11px 17px;
+	float:left;
+	width: 80%;
+	box-sizing: border-box;
+	/*height: 200px;*/
+	/*background-color: #ffb3b3;*/
+}
+
+#sidebar {
+	float: left;
+	width: 20%;
+	padding: 17px 3px;
+	box-sizing: border-box;
+}
+
+.new-recipe {
+	float: left;
+	margin-top: 12px;
+	/*background-color: #cce0ff;*/
+	width: 33%;
+}
+.new-recipe > a > img {
+	width: 212px;
+    height: 154px;
+    margin-top: 11px;
+}
+
+#new-tools {
+	clear: left;
+	padding-top: 23px;
+}
+
+#main-footer {
+	padding: 15px;
+	clear: left;
+	background-color: #eee;
+}
+
+.forum {
+	margin-top: 15px;
+}
+
+.recipe-detail-img {
+	width: 500px;
+	margin: 10px 0 11px 0;
+}

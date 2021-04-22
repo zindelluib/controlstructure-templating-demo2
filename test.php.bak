@@ -1,0 +1,11 @@
+<?php
+
+	function displaySum($x  = 0,$y  = 0){
+		$sum   =$x  + $y;
+		echo "<p>The sum of $x and $y is $sum</p>";
+	}
+
+	$message  = "I love PHP";
+
+
+?>

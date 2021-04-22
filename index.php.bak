@@ -1,0 +1,15 @@
+<?php
+	// include "includes/config.php";
+	// include "test.php";
+
+	require "includes/config.php";
+	require "test1.php";
+
+
+	echo "Hello World";
+	echo "<br>";
+	echo BASE_URL;
+	echo "<br>";
+	displaySum(30,45);
+	echo $message;
+?>
